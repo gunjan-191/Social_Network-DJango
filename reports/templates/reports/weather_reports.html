@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Report</title>
+</head>
+<body>
+    <h1>Weather Report for {{ weather_data.name }}</h1>
+    <p>Temperature: {{ weather_data.main.temp }}°C</p>
+    <p>Weather: {{ weather_data.weather.0.main }}</p>
+</body>
+</html>
